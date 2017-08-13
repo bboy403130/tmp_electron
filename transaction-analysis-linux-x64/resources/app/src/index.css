@@ -1,0 +1,19 @@
+[name=customX] .recharts-surface{
+	padding-bottom:100px;
+}
+body{
+	text-align:center;
+	with:100%;
+	-webkit-print-color-adjust:exact;
+}
+/*data-reactroot display props is used for break page*/
+[data-reactroot] {
+	width: 100% !important; 
+	display:initial !important;
+}
+.hiddenCompletely {
+    display: none; !important;
+}
+.breakPage{
+	page-break-before: always; 
+}

@@ -1,0 +1,5 @@
+node_modules/**
+static/**
+__tests__/**
+webpack.config.**
+.eslintrc

@@ -1,0 +1,33 @@
+{
+  "name": "transaction-analysis",
+  "version": "1.0.0",
+  "description": "An analysis application for IIB",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron -r babel-register .",
+    "buildOSX": "electron-packager . --platform=darwin --arch=x64 --overwrite",
+    "buildWIN": "electron-packager . --platform=win32 --arch=x64 --overwrite",
+    "buildLINUX": "electron-packager . --platform=linux --arch=x64 --overwrite",
+    "test": "jest"
+  },
+  "author": "TonyYang/tongyy@tw.ibm.com",
+  "devDependencies": {
+    "electron": "~1.6.2",
+    "enzyme": "^2.8.2",
+    "jest": "^20.0.4",
+    "react-addons-test-utils": "^15.6.0"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-register": "^6.3.13",
+    "immutable": "^3.8.1",
+    "jsdom": "^11.0.0",
+    "moment": "^2.18.1",
+    "react": "^15.3.2",
+    "react-block-ui": "^0.2.6",
+    "react-dom": "^15.3.2",
+    "react-dropzone": "^3.13.2",
+    "recharts": "^1.0.0-alpha.1"
+  }
+}
